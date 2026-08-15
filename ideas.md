@@ -90,3 +90,17 @@ Use warm mineral paper (`#F3F0E8`), charcoal ink (`#1E2523`), dark pine (`#0B4A3
 
 ### Revised Layout
 Use a top editorial masthead, then a two-column command workbench: a broad reading and analysis sheet on the left, and a narrow session ledger on the right. The risk outcome appears as a coloured margin note alongside the analysis, and evidence is rendered as a short inspection checklist rather than a dashboard card.
+
+## New Design Direction: Shift Ledger
+
+### Design Principle
+GuardShell now takes its visual language from an **operator’s shift book**: service tickets, maintenance labels, timestamped entries, and live state markers. The product should feel like a real control surface used during routine Linux maintenance rather than a static safety explainer.
+
+### Interaction and Motion
+Motion communicates a change in operational state. The command strip draws in when a review begins, the decision stamp rises in from the left after analysis, and new ledger entries slide into the top of the log with a short timestamp reveal. Animations remain under 280ms, use transform and opacity only, and disappear under reduced-motion preferences.
+
+### Layout Principle
+The next interface uses a horizontal **work order** at the top, a central analysis dossier, and a persistent activity rail. Risk labels become work-status stamps, remediation becomes an actionable runbook, and the right rail distinguishes pending, approved, and blocked events.
+
+### Shift Ledger Amendments
+The live work order, inspection identity, and state stamp must be the first read above the fold; campaign-style headline copy is secondary. The GuardShell mark is an industrial shield cut from a terminal prompt gesture, and every section uses recurring work-order IDs, timestamps, status dots, and maintenance-log labels as the unified system grammar.

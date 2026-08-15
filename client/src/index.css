@@ -1,9 +1,7 @@
-/* Unix Field Manual redesign: warm paper, ink-heavy editorial type, and functional restraint over AI-dashboard ornament. */
+/* Shift Ledger design: work-order hierarchy, operational labels, and motion only for meaningful state transitions. */
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
-
-@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --font-display: "Fraunces", Georgia, serif;
@@ -27,7 +25,7 @@
   --radius-lg: 0rem;
 }
 
-:root { --background: #F3F0E8; --foreground: #1E2523; --card: #FAF9F5; --card-foreground: #1E2523; --popover: #FAF9F5; --popover-foreground: #1E2523; --primary: #0B4A3F; --primary-foreground: #FFFFFF; --muted: #E8E3D7; --muted-foreground: #64716A; --border: rgba(30,37,35,0.2); --input: rgba(30,37,35,0.2); --ring: #0B4A3F; }
+:root { --background: #F4F1E9; --foreground: #13211D; --card: #FBFAF6; --card-foreground: #13211D; --popover: #FBFAF6; --popover-foreground: #13211D; --primary: #0E3D35; --primary-foreground: #FFFFFF; --muted: #EAE5D9; --muted-foreground: #66716B; --border: rgba(19,33,29,0.2); --input: rgba(19,33,29,0.2); --ring: #0E3D35; }
 
 @layer base {
   * { @apply border-border outline-ring/50; }
@@ -35,12 +33,32 @@
   body { @apply bg-background font-sans text-foreground; }
   button, input, textarea { font: inherit; }
   button:not(:disabled), [role="button"]:not([aria-disabled="true"]) { @apply cursor-pointer; }
-  ::selection { background: #D7E9D8; color: #1E2523; }
+  ::selection { background: #CBE3D6; color: #13211D; }
   ::-webkit-scrollbar { width: 8px; }
-  ::-webkit-scrollbar-thumb { background: #AAA89E; }
-  ::-webkit-scrollbar-track { background: #F3F0E8; }
+  ::-webkit-scrollbar-thumb { background: #AAA79B; }
+  ::-webkit-scrollbar-track { background: #F4F1E9; }
 }
 
+.state-mark { display: inline-block; width: 10px; height: 10px; border-radius: 999px; }
+.state-mark.safe { background: #72F2B2; box-shadow: 0 0 0 4px rgba(114, 242, 178, 0.15); }
+.state-mark.caution { background: #F7BE67; box-shadow: 0 0 0 4px rgba(247, 190, 103, 0.15); }
+.state-mark.high { background: #F28B63; box-shadow: 0 0 0 4px rgba(242, 139, 99, 0.15); }
+.state-mark.critical { background: #FF5D66; box-shadow: 0 0 0 4px rgba(255, 93, 102, 0.15); }
+.guard-mark { display: grid; place-items: center; width: 42px; height: 42px; color: #F4F1E9; background: #0E3D35; clip-path: polygon(50% 0%, 92% 14%, 92% 61%, 50% 100%, 8% 61%, 8% 14%); font-family: "DM Mono", monospace; font-size: 13px; font-weight: 500; letter-spacing: -0.1em; }
+.work-order-rail { position: relative; }
+.work-order-rail::before { content: ""; position: absolute; left: 0; bottom: -1px; width: 84px; height: 2px; background: #C65639; }
+.ticket-stamp { display: inline-block; border: 1px solid rgba(19, 33, 29, 0.3); padding: 4px 6px; color: #0E3D35; font-size: 9px; line-height: 1; letter-spacing: 0.11em; }
+.shift-queue > div { background: #EAE5D9; padding: 10px 8px; }
+.shift-queue p { font-family: "Fraunces", Georgia, serif; font-size: 24px; line-height: 1; color: #13211D; }
+.shift-queue span { display: block; margin-top: 5px; font-family: "DM Mono", monospace; font-size: 8px; letter-spacing: 0.08em; color: #64716A; }
+
 @media (prefers-reduced-motion: no-preference) {
-  button, a { transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1); }
+  .work-order-enter { animation: work-order-in 260ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+  .notice-enter { animation: notice-in 220ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+  .ledger-entry { animation: ledger-in 240ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+  .animate-signal { animation: signal-rise 520ms cubic-bezier(0.23, 1, 0.32, 1) both; transform-origin: top; }
+  @keyframes work-order-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes notice-in { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: translateX(0); } }
+  @keyframes ledger-in { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes signal-rise { from { transform: scaleY(0); } to { transform: scaleY(1); } }
 }
