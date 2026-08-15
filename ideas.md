@@ -67,3 +67,9 @@ The mark combines a terminal prompt chevron with a protective shield cutout, for
 
 ### Signature Brand Color
 **Signal Mint — #72F2B2.**
+
+## Style Decisions
+
+- Above the fold must read as an **active diagnostic instrument**: the Command Beam, policy mode, risk spectrum, and evidence chain outrank marketing language.
+- GuardShell visuals favor **policy grids, command traces, calibrated rails, and chain-of-custody stamps** over atmospheric cybersecurity imagery.
+- Every decision record uses a recurring forensic stamp language: a status dot, timestamp-like mono metadata, and a compact evidence identifier.
