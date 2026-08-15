@@ -97,6 +97,8 @@ The included test suite covers safe inspection, privileged service actions, bulk
 python3 cli/test_guardshell.py
 ```
 
+For the hackathon recording flow and the local open-source-model evidence, read [docs/DEMO_RUNBOOK.md](docs/DEMO_RUNBOOK.md) and [docs/OPEN_SOURCE_MODEL_EVIDENCE.md](docs/OPEN_SOURCE_MODEL_EVIDENCE.md).
+
 ## Important limitations
 
 GuardShell is a hackathon MVP, not a replacement for Linux permissions, mandatory access controls, endpoint protection, or independent security review. It does not fully parse arbitrary shell scripts, aliases, environment expansion, or custom binaries. Production rollout should add AST parsing, signed policy packs, least-privilege service accounts, protected audit storage, sandboxed execution, policy-change review, and broader distribution-specific testing.

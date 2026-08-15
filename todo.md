@@ -7,10 +7,10 @@
 ## Final Submission Completion
 
 - [x] Remove generated artifacts, add an explicit license, and update project documentation.
-- [ ] Synchronize the newest source checkpoint to the GitHub repository and enable judge access.
-- [ ] Finalize form copy, AI-integration evidence, and the demonstration script.
-- [ ] Export and validate a presentation file within the portal's 300 KB limit.
-- [ ] Validate the final artifact set and prepare the portal-entry checklist.
+- [x] Synchronize the newest source checkpoint to the GitHub repository and enable judge access.
+- [x] Finalize form copy, AI-integration evidence, and the demonstration script.
+- [x] Export and validate a presentation file within the portal's 300 KB limit.
+- [x] Validate the final artifact set and prepare the portal-entry checklist.
 
 ## Production-Oriented Upgrade
 
