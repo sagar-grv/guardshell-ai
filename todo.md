@@ -1,5 +1,17 @@
 # GuardShell AI Redesign Tasks
 
+## Submission Readiness Review
+
+- [x] Verify the current project, repository, presentation, and form entries against the provided hackathon rules.
+
+## Final Submission Completion
+
+- [x] Remove generated artifacts, add an explicit license, and update project documentation.
+- [ ] Synchronize the newest source checkpoint to the GitHub repository and enable judge access.
+- [ ] Finalize form copy, AI-integration evidence, and the demonstration script.
+- [ ] Export and validate a presentation file within the portal's 300 KB limit.
+- [ ] Validate the final artifact set and prepare the portal-entry checklist.
+
 ## Production-Oriented Upgrade
 
 - [x] Define the local-agent trust boundary, safety modes, and remediation design.

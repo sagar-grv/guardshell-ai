@@ -105,6 +105,11 @@ temp/
 *.sqlite
 *.sqlite3
 
+# Python generated artifacts and local agent state
+__pycache__/
+*.py[cod]
+.guardshell/
+
 # Webdev artifacts (checkpoint zips, migrations, etc.)
 .webdev/
 
