@@ -73,3 +73,20 @@ The mark combines a terminal prompt chevron with a protective shield cutout, for
 - Above the fold must read as an **active diagnostic instrument**: the Command Beam, policy mode, risk spectrum, and evidence chain outrank marketing language.
 - GuardShell visuals favor **policy grids, command traces, calibrated rails, and chain-of-custody stamps** over atmospheric cybersecurity imagery.
 - Every decision record uses a recurring forensic stamp language: a status dot, timestamp-like mono metadata, and a compact evidence identifier.
+
+## Redesign Direction: Unix Field Manual
+
+### Design Movement
+The redesign moves away from the forensic-dashboard aesthetic toward an **industrial safety manual for a local Unix utility**. It should feel designed by a product team that understands operational tools: considered paper-like surfaces, ink-heavy typography, purposeful labels, and small functional details rather than atmospheric visual effects.
+
+### Revised Principles
+1. **Editorial before ornamental:** generous whitespace, an unhurried reading rhythm, and clear content hierarchy take priority over decorative panels.
+2. **The command is a document:** the command input reads like a marked-up line in a field manual, not a glowing futuristic console.
+3. **One interface, one job:** analysis, evidence, and session history retain their functions but no longer compete as separate dashboard widgets.
+4. **Human signals:** concise language, non-uniform alignment, selective serif type, and tactile dividers replace generic AI-product visual cues.
+
+### Revised Visual System
+Use warm mineral paper (`#F3F0E8`), charcoal ink (`#1E2523`), dark pine (`#0B4A3F`), safety orange (`#D95C35`), and institutional blue (`#355F8E`). Pair **Fraunces** for editorial headings with **DM Mono** for command text and metadata. Remove gradients, glows, floating imagery, pill-heavy controls, and uniform large-radius cards.
+
+### Revised Layout
+Use a top editorial masthead, then a two-column command workbench: a broad reading and analysis sheet on the left, and a narrow session ledger on the right. The risk outcome appears as a coloured margin note alongside the analysis, and evidence is rendered as a short inspection checklist rather than a dashboard card.
