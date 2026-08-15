@@ -1,0 +1,41 @@
+<slide id="workflow">
+  <background color="bg-dark"/>
+  <shape id="cross-h" type="line" x="1135" y="62" width="85" height="0" stroke="hairline" stroke-width="1"/>
+  <shape id="cross-v" type="line" x="1177" y="20" width="0" height="85" stroke="hairline" stroke-width="1"/>
+  <image id="guard-logo" src="/manus-storage/guardshell-logo_e9a441f8.png" x="1170" y="42" width="38" height="38" fit="contain"/>
+  <text id="section-label" x="60" y="58" width="290" height="22" font="caption" color="ice-blue" wrap="false">03 — COMMAND JOURNEY</text>
+  <text id="title" x="60" y="105" width="850" height="52" font="heading" size="40" color="text-main" wrap="false">One command. Six visible safety decisions.</text>
+  <text id="intro" x="60" y="177" width="900" height="34" font="body" size="18" color="text-muted">GuardShell turns an opaque shell instruction into a traceable, explainable flow.</text>
+  <shape id="step1" type="rect" x="60" y="245" width="340" height="110" fill="bg-panel" stroke="hairline" stroke-width="1"/>
+  <text id="step1-number" x="82" y="264" width="42" height="20" font="caption" color="mint-safe">01</text>
+  <text id="step1-title" x="82" y="295" width="220" height="28" font="heading" size="22" color="text-main">Input</text>
+  <text id="step1-copy" x="82" y="326" width="275" height="22" font="body" size="14" color="text-muted">User enters a Linux command.</text>
+  <shape id="arrow1" type="line" x="400" y="300" width="40" height="0" stroke="ice-blue" stroke-width="2" arrow-end="arrow"/>
+  <shape id="step2" type="rect" x="460" y="245" width="340" height="110" fill="bg-panel" stroke="hairline" stroke-width="1"/>
+  <text id="step2-number" x="482" y="264" width="42" height="20" font="caption" color="ice-blue">02</text>
+  <text id="step2-title" x="482" y="295" width="220" height="28" font="heading" size="22" color="text-main">Parse</text>
+  <text id="step2-copy" x="482" y="326" width="280" height="22" font="body" size="14" color="text-muted">Read flags, pipes, paths, and redirects.</text>
+  <shape id="arrow2" type="line" x="800" y="300" width="40" height="0" stroke="ice-blue" stroke-width="2" arrow-end="arrow"/>
+  <shape id="step3" type="rect" x="860" y="245" width="360" height="110" fill="bg-panel" stroke="hairline" stroke-width="1"/>
+  <text id="step3-number" x="882" y="264" width="42" height="20" font="caption" color="ice-blue">03</text>
+  <text id="step3-title" x="882" y="295" width="250" height="28" font="heading" size="22" color="text-main">Collect context</text>
+  <text id="step3-copy" x="882" y="326" width="300" height="22" font="body" size="14" color="text-muted">Check user, target, permissions, environment.</text>
+  <shape id="down-arrow" type="line" x="640" y="355" width="0" height="55" stroke="ice-blue" stroke-width="2" arrow-end="arrow"/>
+  <shape id="step4" type="rect" x="60" y="425" width="340" height="110" fill="bg-panel" stroke="#72F2B255" stroke-width="1"/>
+  <text id="step4-number" x="82" y="444" width="42" height="20" font="caption" color="mint-safe">04</text>
+  <text id="step4-title" x="82" y="475" width="260" height="28" font="heading" size="22" color="text-main">Assess policy</text>
+  <text id="step4-copy" x="82" y="506" width="280" height="22" font="body" size="14" color="text-muted">Detect dangerous patterns and protected paths.</text>
+  <shape id="arrow4" type="line" x="400" y="480" width="40" height="0" stroke="mint-safe" stroke-width="2" arrow-end="arrow"/>
+  <shape id="step5" type="rect" x="460" y="425" width="340" height="110" fill="bg-panel" stroke="#A0C4FF55" stroke-width="1"/>
+  <text id="step5-number" x="482" y="444" width="42" height="20" font="caption" color="ice-blue">05</text>
+  <text id="step5-title" x="482" y="475" width="300" height="28" font="heading" size="22" color="text-main">Explain intent</text>
+  <text id="step5-copy" x="482" y="506" width="285" height="22" font="body" size="14" color="text-muted">Describe impact and safer alternatives.</text>
+  <shape id="arrow5" type="line" x="800" y="480" width="40" height="0" stroke="ice-blue" stroke-width="2" arrow-end="arrow"/>
+  <shape id="step6" type="rect" x="860" y="425" width="360" height="110" fill="bg-panel" stroke="#F5A62355" stroke-width="1"/>
+  <text id="step6-number" x="882" y="444" width="42" height="20" font="caption" color="amber-warn">06</text>
+  <text id="step6-title" x="882" y="475" width="300" height="28" font="heading" size="22" color="text-main">Decide and act</text>
+  <text id="step6-copy" x="882" y="506" width="300" height="22" font="body" size="14" color="text-muted">Allow, confirm, guide, or block by policy.</text>
+  <shape id="audit-strip" type="rect" x="60" y="575" width="1160" height="44" fill="#A0C4FF12" stroke="#A0C4FF3D" stroke-width="1"/>
+  <text id="audit-copy" x="82" y="588" width="1100" height="22" font="body" size="15" color="ice-blue" wrap="false">Every decision, explanation, and operator response is stored in the local audit trail.</text>
+  <text id="footer-page" x="60" y="676" width="80" height="20" font="caption" color="text-muted" wrap="false">04 / 10</text>
+</slide>

@@ -1,0 +1,16 @@
+<design>
+  <size width="1280" height="720"></size>
+  <color name="bg-dark" value="#121417"/>
+  <color name="bg-panel" value="#1E2126"/>
+  <color name="text-main" value="#E4E7EC"/>
+  <color name="text-muted" value="#9AA4B2"/>
+  <color name="mint-safe" value="#72F2B2"/>
+  <color name="amber-warn" value="#F5A623"/>
+  <color name="red-risk" value="#FF4C4C"/>
+  <color name="ice-blue" value="#A0C4FF"/>
+  <color name="hairline" value="#2C313A"/>
+  <font name="display" family="Space Grotesk" size="56"/>
+  <font name="heading" family="Space Grotesk" size="32"/>
+  <font name="body" family="IBM Plex Mono" size="18"/>
+  <font name="caption" family="IBM Plex Mono" size="14"/>
+</design>

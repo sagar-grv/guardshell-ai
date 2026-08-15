@@ -1,0 +1,24 @@
+<slide id="impact">
+  <background color="bg-dark"/>
+  <shape id="cross-h" type="line" x="1135" y="62" width="85" height="0" stroke="hairline" stroke-width="1"/>
+  <shape id="cross-v" type="line" x="1177" y="20" width="0" height="85" stroke="hairline" stroke-width="1"/>
+  <image id="guard-logo" src="/manus-storage/guardshell-logo_e9a441f8.png" x="1170" y="42" width="38" height="38" fit="contain"/>
+  <text id="section-label" x="60" y="58" width="340" height="22" font="caption" color="mint-safe" wrap="false">08 — INNOVATION + IMPACT</text>
+  <text id="title" x="60" y="105" width="900" height="52" font="heading" size="40" color="text-main" wrap="false">Safety that teaches, guides, and enforces.</text>
+  <text id="intro" x="60" y="177" width="960" height="34" font="body" size="18" color="text-muted">GuardShell combines command-level intent understanding, deterministic intervention, and local auditability in one Linux-native workflow.</text>
+  <shape id="card-intent" type="rect" x="60" y="286" width="360" height="244" fill="bg-panel" stroke="#72F2B255" stroke-width="1"/>
+  <text id="card-intent-tag" x="84" y="313" width="230" height="20" font="caption" color="mint-safe">01 — INTENT-AWARE</text>
+  <text id="card-intent-title" x="84" y="360" width="280" height="60" font="heading" size="27" color="text-main">Understands more than syntax</text>
+  <text id="card-intent-copy" x="84" y="449" width="284" height="54" font="body" size="15" color="text-muted" line-height="1.35">It explains what the operator is attempting, not only the literal command tokens.</text>
+  <shape id="card-local" type="rect" x="460" y="286" width="360" height="244" fill="bg-panel" stroke="#A0C4FF55" stroke-width="1"/>
+  <text id="card-local-tag" x="484" y="313" width="230" height="20" font="caption" color="ice-blue">02 — LOCAL-FIRST</text>
+  <text id="card-local-title" x="484" y="360" width="280" height="60" font="heading" size="27" color="text-main">Keeps the decision near the system</text>
+  <text id="card-local-copy" x="484" y="449" width="284" height="54" font="body" size="15" color="text-muted" line-height="1.35">Policy files, audit history, and an optional open-source model can remain on Linux.</text>
+  <shape id="card-guidance" type="rect" x="860" y="286" width="360" height="244" fill="bg-panel" stroke="#F5A62355" stroke-width="1"/>
+  <text id="card-guidance-tag" x="884" y="313" width="230" height="20" font="caption" color="amber-warn">03 — PREVENTIVE</text>
+  <text id="card-guidance-title" x="884" y="360" width="290" height="60" font="heading" size="27" color="text-main">Offers a safer next move</text>
+  <text id="card-guidance-copy" x="884" y="449" width="282" height="54" font="body" size="15" color="text-muted" line-height="1.35">Preview-first and backup-first guidance reduces harm without blocking legitimate learning.</text>
+  <shape id="audience-strip" type="rect" x="60" y="580" width="1160" height="46" fill="#A0C4FF12" stroke="#A0C4FF44" stroke-width="1"/>
+  <text id="audience-copy" x="84" y="593" width="1110" height="20" font="body" size="16" color="ice-blue" align="center" wrap="false">FOR STUDENTS · DEVELOPER WORKFLOWS · SYSTEM ADMINISTRATION REVIEW</text>
+  <text id="footer-page" x="60" y="676" width="80" height="20" font="caption" color="text-muted" wrap="false">09 / 10</text>
+</slide>

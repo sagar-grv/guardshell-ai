@@ -1,0 +1,19 @@
+<slide id="examples">
+  <background color="bg-dark"/>
+  <shape id="cross-h" type="line" x="1135" y="62" width="85" height="0" stroke="hairline" stroke-width="1"/>
+  <shape id="cross-v" type="line" x="1177" y="20" width="0" height="85" stroke="hairline" stroke-width="1"/>
+  <image id="guard-logo" src="/manus-storage/guardshell-logo_e9a441f8.png" x="1170" y="42" width="38" height="38" fit="contain"/>
+  <text id="section-label" x="60" y="58" width="320" height="22" font="caption" color="amber-warn" wrap="false">06 — LIVE COMMAND EXAMPLES</text>
+  <text id="title" x="60" y="105" width="900" height="52" font="heading" size="40" color="text-main" wrap="false">Same terminal. Better decisions before execution.</text>
+  <text id="intro" x="60" y="177" width="920" height="34" font="body" size="18" color="text-muted">GuardShell responds proportionally: it permits safe inspection, explains change, guides risk, and blocks critical damage.</text>
+  <table id="example-table" x="60" y="270" width="1160" height="300" columns="3,1.35,4.2" rows="48,63,63,63,63" font="body" size="15" color="text-main" padding="14 16" header-fill="#1E2126" header-border="1 hairline" border-h="1 hairline">
+    <tr color="text-muted"><td>COMMAND</td><td>DECISION</td><td>GUARDSHELL RESPONSE</td></tr>
+    <tr><td color="mint-safe">$ du -sh *</td><td color="mint-safe">SAFE</td><td color="text-muted">Allow controlled execution and review output.</td></tr>
+    <tr><td color="amber-warn">$ sudo systemctl restart nginx</td><td color="amber-warn">CAUTION</td><td color="text-muted">Explain service impact and request confirmation.</td></tr>
+    <tr><td color="#F28B63">$ rm -rf project/*</td><td color="#F28B63">HIGH RISK</td><td color="text-muted">Recommend preview-first or backup-first workflow.</td></tr>
+    <tr><td color="red-risk">$ sudo rm -rf /</td><td color="red-risk">CRITICAL</td><td color="text-muted">Block deterministically; do not permit execution.</td></tr>
+  </table>
+  <shape id="policy-note" type="rect" x="60" y="605" width="1160" height="36" fill="#FF4C4C12" stroke="#FF4C4C44" stroke-width="1"/>
+  <text id="note-copy" x="78" y="614" width="1120" height="18" font="caption" color="red-risk" align="center" wrap="false">CRITICAL POLICY CANNOT BE OVERRIDDEN BY THE LANGUAGE MODEL.</text>
+  <text id="footer-page" x="60" y="676" width="80" height="20" font="caption" color="text-muted" wrap="false">07 / 10</text>
+</slide>

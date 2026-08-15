@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "title": "GuardShell AI",
+    "created": 1786804674.594,
+    "last_updated": 1786804887.595,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "problem",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "objective",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "workflow",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "architecture",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "hybrid",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "examples",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "prototype",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "impact",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "conclusion",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "GuardShell AI",
+      "summary": "Explainable safety layer for Linux command execution, with the project tagline and a clear Linux-based AI positioning.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "problem",
+      "title": "The Problem",
+      "summary": "Show how powerful Linux commands can cause accidental data loss, privilege escalation, or service disruption when intent is not understood.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "objective",
+      "title": "Our Objective",
+      "summary": "Position GuardShell AI as an explainable decision layer between the Linux user and the shell, with four risk outcomes.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "workflow",
+      "title": "How It Works",
+      "summary": "Present the six-step command journey from input through parsing, context, explanation, policy decision, and audit logging.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "architecture",
+      "title": "System Architecture",
+      "summary": "Use the GuardShell system components to explain the hybrid AI and deterministic policy architecture.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "hybrid",
+      "title": "Hybrid AI + Deterministic Security",
+      "summary": "Explain why AI enriches intent and guidance while hard policy rules retain authority over critical actions.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "examples",
+      "title": "Live Command Examples",
+      "summary": "Compare Safe, Caution, High Risk, and Critical commands with their GuardShell responses.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "prototype",
+      "title": "Working Prototype",
+      "summary": "Show the interactive browser workbench and local Python/Linux CLI prototype with its safety guarantees.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "impact",
+      "title": "Innovation and Impact",
+      "summary": "Summarize the innovation and practical value for Linux learners, developers, and administrators.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion and Next Steps",
+      "summary": "Close with the project value proposition and realistic roadmap from MVP to robust local safety platform.",
+      "image_plan": "Use a suitable image if needed"
+    }
+  ]
+}

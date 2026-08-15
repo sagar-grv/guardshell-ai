@@ -1,0 +1,20 @@
+<slide id="cover">
+  <background color="bg-dark"/>
+  <shape id="top-line" type="line" x="60" y="60" width="1160" height="0" stroke="hairline" stroke-width="1"/>
+  <shape id="grid-v1" type="line" x="958" y="125" width="0" height="400" stroke="hairline" stroke-width="1"/>
+  <shape id="grid-v2" type="line" x="1055" y="125" width="0" height="400" stroke="hairline" stroke-width="1"/>
+  <shape id="grid-v3" type="line" x="1152" y="125" width="0" height="400" stroke="hairline" stroke-width="1"/>
+  <shape id="grid-h1" type="line" x="890" y="205" width="300" height="0" stroke="hairline" stroke-width="1"/>
+  <shape id="grid-h2" type="line" x="890" y="302" width="300" height="0" stroke="hairline" stroke-width="1"/>
+  <shape id="grid-h3" type="line" x="890" y="399" width="300" height="0" stroke="hairline" stroke-width="1"/>
+  <shape id="accent-line" type="line" x="60" y="168" width="72" height="0" stroke="mint-safe" stroke-width="4"/>
+  <text id="eyebrow" x="148" y="154" width="360" height="28" font="caption" color="mint-safe" wrap="false">LINUX-BASED AI SAFETY LAYER</text>
+  <text id="title" x="60" y="205" width="760" height="140" font="display" size="64" color="text-main" line-height="1.04">GuardShell AI</text>
+  <text id="subtitle" x="60" y="352" width="665" height="74" font="heading" size="31" color="ice-blue" line-height="1.16">Explainable safety for Linux command execution.</text>
+  <shape id="command-rail" type="rect" x="60" y="470" width="600" height="58" fill="bg-panel" stroke="hairline" stroke-width="1"/>
+  <text id="command" x="83" y="487" width="530" height="30" font="body" size="18" color="mint-safe" wrap="false">$ inspect impact before execution</text>
+  <image id="guard-logo" src="/manus-storage/guardshell-logo_e9a441f8.png" x="1010" y="220" width="138" height="138" fit="contain"/>
+  <text id="logo-label" x="920" y="390" width="310" height="38" font="caption" color="text-muted" align="center" wrap="false">SHELL · INTENT · POLICY</text>
+  <text id="footer-project" x="60" y="628" width="700" height="26" font="caption" color="text-muted" wrap="false">HACKATHON SUBMISSION · AI CAPABILITIES IN THE LINUX OS ECOSYSTEM</text>
+  <text id="footer-page" x="60" y="676" width="80" height="20" font="caption" color="text-muted" wrap="false">01 / 10</text>
+</slide>

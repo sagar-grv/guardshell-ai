@@ -1,0 +1,27 @@
+<slide id="prototype">
+  <background color="bg-dark"/>
+  <shape id="cross-h" type="line" x="1135" y="62" width="85" height="0" stroke="hairline" stroke-width="1"/>
+  <shape id="cross-v" type="line" x="1177" y="20" width="0" height="85" stroke="hairline" stroke-width="1"/>
+  <image id="guard-logo" src="/manus-storage/guardshell-logo_e9a441f8.png" x="1170" y="42" width="38" height="38" fit="contain"/>
+  <text id="section-label" x="60" y="58" width="320" height="22" font="caption" color="mint-safe" wrap="false">07 — WORKING PROTOTYPE</text>
+  <text id="title" x="60" y="105" width="900" height="52" font="heading" size="40" color="text-main" wrap="false">A demonstrable safety workbench and a local CLI.</text>
+  <text id="intro" x="60" y="177" width="900" height="34" font="body" size="18" color="text-muted">The browser demo makes every decision visible; the Python prototype shows how the same policy can run locally on Linux.</text>
+  <shape id="browser-panel" type="rect" x="60" y="270" width="730" height="275" fill="bg-panel" stroke="hairline" stroke-width="1"/>
+  <shape id="browser-top" type="rect" x="60" y="270" width="730" height="34" fill="#121417" stroke="hairline" stroke-width="1"/>
+  <text id="browser-label" x="80" y="280" width="300" height="18" font="caption" color="ice-blue">INTERACTIVE COMMAND INSPECTOR</text>
+  <shape id="browser-input" type="rect" x="84" y="326" width="682" height="48" fill="#0B1114" stroke="#72F2B244" stroke-width="1"/>
+  <text id="browser-command" x="102" y="340" width="620" height="22" font="body" size="16" color="#F28B63" wrap="false">$ rm -rf project/*</text>
+  <text id="browser-status" x="84" y="405" width="180" height="22" font="caption" color="#F28B63">HIGH RISK · 78/100</text>
+  <text id="browser-intent" x="84" y="442" width="620" height="22" font="body" size="16" color="text-main">Intent: bulk recursive deletion detected.</text>
+  <text id="browser-guidance" x="84" y="480" width="650" height="36" font="body" size="15" color="text-muted">Safer next step: preview targets first, then move files to a dated archive.</text>
+  <image id="command-orb" src="/manus-storage/guardshell-command-orb_314398a2.jpg" x="702" y="395" width="62" height="62" fit="cover"/>
+  <shape id="cli-panel" type="rect" x="820" y="270" width="400" height="275" fill="#0B1114" stroke="#A0C4FF55" stroke-width="1"/>
+  <text id="cli-label" x="846" y="292" width="320" height="18" font="caption" color="ice-blue">LOCAL LINUX CLI PROTOTYPE</text>
+  <text id="cli-command" x="846" y="338" width="330" height="22" font="body" size="15" color="mint-safe">$ python3 guardshell.py</text>
+  <text id="cli-risk" x="846" y="378" width="330" height="22" font="body" size="15" color="text-main">SAFE · risk score 12/100</text>
+  <text id="cli-policy" x="846" y="414" width="330" height="38" font="body" size="14" color="text-muted">Policy action: ALLOWED\nNo shell execution by default.</text>
+  <text id="cli-test" x="846" y="490" width="320" height="18" font="caption" color="ice-blue">6 DETERMINISTIC POLICY TESTS PASSED</text>
+  <shape id="proof-strip" type="rect" x="60" y="580" width="1160" height="46" fill="#72F2B212" stroke="#72F2B244" stroke-width="1"/>
+  <text id="proof-copy" x="82" y="593" width="1116" height="20" font="body" size="16" color="mint-safe" align="center" wrap="false">Safe execution uses an explicit allowlist, shlex parsing, and subprocess calls without shell execution.</text>
+  <text id="footer-page" x="60" y="676" width="80" height="20" font="caption" color="text-muted" wrap="false">08 / 10</text>
+</slide>
